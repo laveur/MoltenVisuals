@@ -1,0 +1,15 @@
+//
+//  UIColor+WebColors.h
+//  MoltenVisuals
+//
+//  Created by Nicholas Bourey on 7/20/13.
+//  Copyright (c) 2013 Nicholas Bourey. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIColor (WebColors)
+
+- (UIColor *)colorFromWebString:(NSString *)colorString;
+
+@end

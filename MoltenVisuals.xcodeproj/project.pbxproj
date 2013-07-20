@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9C41D6179AA04F0051C88A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C41D5179AA04F0051C88A /* Cocoa.framework */; };
+		3E9C41E0179AA04F0051C88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E9C41DE179AA04F0051C88A /* InfoPlist.strings */; };
+		3E9C41EC179AA04F0051C88A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C41EB179AA04F0051C88A /* SenTestingKit.framework */; };
+		3E9C41ED179AA04F0051C88A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C41D5179AA04F0051C88A /* Cocoa.framework */; };
+		3E9C41F0179AA04F0051C88A /* MoltenVisuals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C41D2179AA04F0051C88A /* MoltenVisuals.framework */; };
+		3E9C41F6179AA04F0051C88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E9C41F4179AA04F0051C88A /* InfoPlist.strings */; };
+		3E9C41F9179AA04F0051C88A /* MoltenVisualsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C41F8179AA04F0051C88A /* MoltenVisualsTests.m */; };
+		3E9C420D179AA1380051C88A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C420C179AA1380051C88A /* Foundation.framework */; };
+		3E9C421B179AA1380051C88A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C41EB179AA04F0051C88A /* SenTestingKit.framework */; };
+		3E9C421D179AA1380051C88A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C421C179AA1380051C88A /* UIKit.framework */; };
+		3E9C421E179AA1380051C88A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C420C179AA1380051C88A /* Foundation.framework */; };
+		3E9C4221179AA1380051C88A /* libMoltenVisualsTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9C420B179AA1380051C88A /* libMoltenVisualsTouch.a */; };
+		3E9C4227179AA1380051C88A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E9C4225179AA1380051C88A /* InfoPlist.strings */; };
+		3E9C422A179AA1380051C88A /* MoltenVisualsTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C4229179AA1380051C88A /* MoltenVisualsTouchTests.m */; };
+		3E9C4239179AA1AB0051C88A /* NSColor+WebColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9C4237179AA1AB0051C88A /* NSColor+WebColors.h */; };
+		3E9C423A179AA1AB0051C88A /* NSColor+WebColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C4238179AA1AB0051C88A /* NSColor+WebColors.m */; };
+		3EA12E17179AA41900D26FD9 /* UIColor+WebColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA12E16179AA41900D26FD9 /* UIColor+WebColors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E9C41EE179AA04F0051C88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E9C41C9179AA04E0051C88A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9C41D1179AA04E0051C88A;
+			remoteInfo = MoltenVisuals;
+		};
+		3E9C421F179AA1380051C88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E9C41C9179AA04E0051C88A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9C420A179AA1380051C88A;
+			remoteInfo = MoltenVisualsTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E9C4209179AA1380051C88A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E9C41D2179AA04F0051C88A /* MoltenVisuals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoltenVisuals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9C41D5179AA04F0051C88A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E9C41D8179AA04F0051C88A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E9C41D9179AA04F0051C88A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E9C41DA179AA04F0051C88A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E9C41DD179AA04F0051C88A /* MoltenVisuals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoltenVisuals-Info.plist"; sourceTree = "<group>"; };
+		3E9C41DF179AA04F0051C88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E9C41E1179AA04F0051C88A /* MoltenVisuals-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoltenVisuals-Prefix.pch"; sourceTree = "<group>"; };
+		3E9C41EA179AA04F0051C88A /* MoltenVisualsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoltenVisualsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9C41EB179AA04F0051C88A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E9C41F3179AA04F0051C88A /* MoltenVisualsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoltenVisualsTests-Info.plist"; sourceTree = "<group>"; };
+		3E9C41F5179AA04F0051C88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E9C41F7179AA04F0051C88A /* MoltenVisualsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoltenVisualsTests.h; sourceTree = "<group>"; };
+		3E9C41F8179AA04F0051C88A /* MoltenVisualsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoltenVisualsTests.m; sourceTree = "<group>"; };
+		3E9C420B179AA1380051C88A /* libMoltenVisualsTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMoltenVisualsTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9C420C179AA1380051C88A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E9C4210179AA1380051C88A /* MoltenVisualsTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoltenVisualsTouch-Prefix.pch"; sourceTree = "<group>"; };
+		3E9C421A179AA1380051C88A /* MoltenVisualsTouchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoltenVisualsTouchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9C421C179AA1380051C88A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E9C4224179AA1380051C88A /* MoltenVisualsTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoltenVisualsTouchTests-Info.plist"; sourceTree = "<group>"; };
+		3E9C4226179AA1380051C88A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E9C4228179AA1380051C88A /* MoltenVisualsTouchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoltenVisualsTouchTests.h; sourceTree = "<group>"; };
+		3E9C4229179AA1380051C88A /* MoltenVisualsTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoltenVisualsTouchTests.m; sourceTree = "<group>"; };
+		3E9C4237179AA1AB0051C88A /* NSColor+WebColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+WebColors.h"; sourceTree = "<group>"; };
+		3E9C4238179AA1AB0051C88A /* NSColor+WebColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+WebColors.m"; sourceTree = "<group>"; };
+		3EA12E15179AA41900D26FD9 /* UIColor+WebColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WebColors.h"; sourceTree = "<group>"; };
+		3EA12E16179AA41900D26FD9 /* UIColor+WebColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WebColors.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E9C41CE179AA04E0051C88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C41D6179AA04F0051C88A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C41E6179AA04F0051C88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C41EC179AA04F0051C88A /* SenTestingKit.framework in Frameworks */,
+				3E9C41ED179AA04F0051C88A /* Cocoa.framework in Frameworks */,
+				3E9C41F0179AA04F0051C88A /* MoltenVisuals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C4208179AA1380051C88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C420D179AA1380051C88A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C4216179AA1380051C88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C421B179AA1380051C88A /* SenTestingKit.framework in Frameworks */,
+				3E9C421D179AA1380051C88A /* UIKit.framework in Frameworks */,
+				3E9C421E179AA1380051C88A /* Foundation.framework in Frameworks */,
+				3E9C4221179AA1380051C88A /* libMoltenVisualsTouch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E9C41C8179AA04E0051C88A = {
+			isa = PBXGroup;
+			children = (
+				3E9C41DB179AA04F0051C88A /* MoltenVisuals */,
+				3E9C41F1179AA04F0051C88A /* MoltenVisualsTests */,
+				3E9C420E179AA1380051C88A /* MoltenVisualsTouch */,
+				3E9C4222179AA1380051C88A /* MoltenVisualsTouchTests */,
+				3E9C41D4179AA04F0051C88A /* Frameworks */,
+				3E9C41D3179AA04F0051C88A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E9C41D3179AA04F0051C88A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41D2179AA04F0051C88A /* MoltenVisuals.framework */,
+				3E9C41EA179AA04F0051C88A /* MoltenVisualsTests.octest */,
+				3E9C420B179AA1380051C88A /* libMoltenVisualsTouch.a */,
+				3E9C421A179AA1380051C88A /* MoltenVisualsTouchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E9C41D4179AA04F0051C88A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41D5179AA04F0051C88A /* Cocoa.framework */,
+				3E9C41EB179AA04F0051C88A /* SenTestingKit.framework */,
+				3E9C420C179AA1380051C88A /* Foundation.framework */,
+				3E9C421C179AA1380051C88A /* UIKit.framework */,
+				3E9C41D7179AA04F0051C88A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E9C41D7179AA04F0051C88A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41D8179AA04F0051C88A /* AppKit.framework */,
+				3E9C41D9179AA04F0051C88A /* CoreData.framework */,
+				3E9C41DA179AA04F0051C88A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E9C41DB179AA04F0051C88A /* MoltenVisuals */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4202179AA0F70051C88A /* Classes */,
+				3E9C41DC179AA04F0051C88A /* Supporting Files */,
+			);
+			path = MoltenVisuals;
+			sourceTree = "<group>";
+		};
+		3E9C41DC179AA04F0051C88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41DD179AA04F0051C88A /* MoltenVisuals-Info.plist */,
+				3E9C41DE179AA04F0051C88A /* InfoPlist.strings */,
+				3E9C41E1179AA04F0051C88A /* MoltenVisuals-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9C41F1179AA04F0051C88A /* MoltenVisualsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41F7179AA04F0051C88A /* MoltenVisualsTests.h */,
+				3E9C41F8179AA04F0051C88A /* MoltenVisualsTests.m */,
+				3E9C41F2179AA04F0051C88A /* Supporting Files */,
+			);
+			path = MoltenVisualsTests;
+			sourceTree = "<group>";
+		};
+		3E9C41F2179AA04F0051C88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C41F3179AA04F0051C88A /* MoltenVisualsTests-Info.plist */,
+				3E9C41F4179AA04F0051C88A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9C4202179AA0F70051C88A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4203179AA0F70051C88A /* Categories */,
+				3E9C4204179AA0F70051C88A /* Utilities */,
+				3E9C4205179AA0F70051C88A /* View Controllers */,
+				3E9C4206179AA0F70051C88A /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E9C4203179AA0F70051C88A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4237179AA1AB0051C88A /* NSColor+WebColors.h */,
+				3E9C4238179AA1AB0051C88A /* NSColor+WebColors.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3E9C4204179AA0F70051C88A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3E9C4205179AA0F70051C88A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3E9C4206179AA0F70051C88A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E9C420E179AA1380051C88A /* MoltenVisualsTouch */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4232179AA17A0051C88A /* Classes */,
+				3E9C420F179AA1380051C88A /* Supporting Files */,
+			);
+			path = MoltenVisualsTouch;
+			sourceTree = "<group>";
+		};
+		3E9C420F179AA1380051C88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4210179AA1380051C88A /* MoltenVisualsTouch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9C4222179AA1380051C88A /* MoltenVisualsTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4228179AA1380051C88A /* MoltenVisualsTouchTests.h */,
+				3E9C4229179AA1380051C88A /* MoltenVisualsTouchTests.m */,
+				3E9C4223179AA1380051C88A /* Supporting Files */,
+			);
+			path = MoltenVisualsTouchTests;
+			sourceTree = "<group>";
+		};
+		3E9C4223179AA1380051C88A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4224179AA1380051C88A /* MoltenVisualsTouchTests-Info.plist */,
+				3E9C4225179AA1380051C88A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E9C4232179AA17A0051C88A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C4233179AA17A0051C88A /* Categories */,
+				3E9C4234179AA17A0051C88A /* Utilities */,
+				3E9C4235179AA17A0051C88A /* View Controllers */,
+				3E9C4236179AA17A0051C88A /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E9C4233179AA17A0051C88A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3EA12E15179AA41900D26FD9 /* UIColor+WebColors.h */,
+				3EA12E16179AA41900D26FD9 /* UIColor+WebColors.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3E9C4234179AA17A0051C88A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3E9C4235179AA17A0051C88A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3E9C4236179AA17A0051C88A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E9C41CF179AA04E0051C88A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C4239179AA1AB0051C88A /* NSColor+WebColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E9C41D1179AA04E0051C88A /* MoltenVisuals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9C41FC179AA04F0051C88A /* Build configuration list for PBXNativeTarget "MoltenVisuals" */;
+			buildPhases = (
+				3E9C41CD179AA04E0051C88A /* Sources */,
+				3E9C41CE179AA04E0051C88A /* Frameworks */,
+				3E9C41CF179AA04E0051C88A /* Headers */,
+				3E9C41D0179AA04E0051C88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoltenVisuals;
+			productName = MoltenVisuals;
+			productReference = 3E9C41D2179AA04F0051C88A /* MoltenVisuals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E9C41E9179AA04F0051C88A /* MoltenVisualsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9C41FF179AA04F0051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTests" */;
+			buildPhases = (
+				3E9C41E5179AA04F0051C88A /* Sources */,
+				3E9C41E6179AA04F0051C88A /* Frameworks */,
+				3E9C41E7179AA04F0051C88A /* Resources */,
+				3E9C41E8179AA04F0051C88A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9C41EF179AA04F0051C88A /* PBXTargetDependency */,
+			);
+			name = MoltenVisualsTests;
+			productName = MoltenVisualsTests;
+			productReference = 3E9C41EA179AA04F0051C88A /* MoltenVisualsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3E9C420A179AA1380051C88A /* MoltenVisualsTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9C422B179AA1380051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTouch" */;
+			buildPhases = (
+				3E9C4207179AA1380051C88A /* Sources */,
+				3E9C4208179AA1380051C88A /* Frameworks */,
+				3E9C4209179AA1380051C88A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoltenVisualsTouch;
+			productName = MoltenVisualsTouch;
+			productReference = 3E9C420B179AA1380051C88A /* libMoltenVisualsTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3E9C4219179AA1380051C88A /* MoltenVisualsTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9C422E179AA1380051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTouchTests" */;
+			buildPhases = (
+				3E9C4215179AA1380051C88A /* Sources */,
+				3E9C4216179AA1380051C88A /* Frameworks */,
+				3E9C4217179AA1380051C88A /* Resources */,
+				3E9C4218179AA1380051C88A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E9C4220179AA1380051C88A /* PBXTargetDependency */,
+			);
+			name = MoltenVisualsTouchTests;
+			productName = MoltenVisualsTouchTests;
+			productReference = 3E9C421A179AA1380051C88A /* MoltenVisualsTouchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E9C41C9179AA04E0051C88A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nicholas Bourey";
+			};
+			buildConfigurationList = 3E9C41CC179AA04E0051C88A /* Build configuration list for PBXProject "MoltenVisuals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E9C41C8179AA04E0051C88A;
+			productRefGroup = 3E9C41D3179AA04F0051C88A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9C41D1179AA04E0051C88A /* MoltenVisuals */,
+				3E9C41E9179AA04F0051C88A /* MoltenVisualsTests */,
+				3E9C420A179AA1380051C88A /* MoltenVisualsTouch */,
+				3E9C4219179AA1380051C88A /* MoltenVisualsTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E9C41D0179AA04E0051C88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C41E0179AA04F0051C88A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C41E7179AA04F0051C88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C41F6179AA04F0051C88A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C4217179AA1380051C88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C4227179AA1380051C88A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9C41E8179AA04F0051C88A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		3E9C4218179AA1380051C88A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E9C41CD179AA04E0051C88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C423A179AA1AB0051C88A /* NSColor+WebColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C41E5179AA04F0051C88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C41F9179AA04F0051C88A /* MoltenVisualsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C4207179AA1380051C88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA12E17179AA41900D26FD9 /* UIColor+WebColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9C4215179AA1380051C88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9C422A179AA1380051C88A /* MoltenVisualsTouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E9C41EF179AA04F0051C88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E9C41D1179AA04E0051C88A /* MoltenVisuals */;
+			targetProxy = 3E9C41EE179AA04F0051C88A /* PBXContainerItemProxy */;
+		};
+		3E9C4220179AA1380051C88A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E9C420A179AA1380051C88A /* MoltenVisualsTouch */;
+			targetProxy = 3E9C421F179AA1380051C88A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E9C41DE179AA04F0051C88A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9C41DF179AA04F0051C88A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E9C41F4179AA04F0051C88A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9C41F5179AA04F0051C88A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E9C4225179AA1380051C88A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E9C4226179AA1380051C88A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E9C41FA179AA04F0051C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E9C41FB179AA04F0051C88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E9C41FD179AA04F0051C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisuals/MoltenVisuals-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisuals/MoltenVisuals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		3E9C41FE179AA04F0051C88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisuals/MoltenVisuals-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisuals/MoltenVisuals-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		3E9C4200179AA04F0051C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisuals/MoltenVisuals-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisualsTests/MoltenVisualsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E9C4201179AA04F0051C88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisuals/MoltenVisuals-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisualsTests/MoltenVisualsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		3E9C422C179AA1380051C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/MoltenVisualsTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E9C422D179AA1380051C88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/MoltenVisualsTouch.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E9C422F179AA1380051C88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisualsTouchTests/MoltenVisualsTouchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E9C4230179AA1380051C88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
+				INFOPLIST_FILE = "MoltenVisualsTouchTests/MoltenVisualsTouchTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9C41CC179AA04E0051C88A /* Build configuration list for PBXProject "MoltenVisuals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9C41FA179AA04F0051C88A /* Debug */,
+				3E9C41FB179AA04F0051C88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9C41FC179AA04F0051C88A /* Build configuration list for PBXNativeTarget "MoltenVisuals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9C41FD179AA04F0051C88A /* Debug */,
+				3E9C41FE179AA04F0051C88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9C41FF179AA04F0051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9C4200179AA04F0051C88A /* Debug */,
+				3E9C4201179AA04F0051C88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9C422B179AA1380051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9C422C179AA1380051C88A /* Debug */,
+				3E9C422D179AA1380051C88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E9C422E179AA1380051C88A /* Build configuration list for PBXNativeTarget "MoltenVisualsTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9C422F179AA1380051C88A /* Debug */,
+				3E9C4230179AA1380051C88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E9C41C9179AA04E0051C88A /* Project object */;
+}
