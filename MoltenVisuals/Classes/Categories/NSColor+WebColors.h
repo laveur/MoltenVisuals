@@ -10,6 +10,6 @@
 
 @interface NSColor (WebColors)
 
-- (NSColor *)colorFromWebString:(NSString *)colorString;
++ (NSColor *)colorFromWebString:(NSString *)colorString;
 
 @end

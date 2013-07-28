@@ -736,6 +736,10 @@
 				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
 				INFOPLIST_FILE = "MoltenVisualsTouchTests/MoltenVisualsTouchTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = octest;
@@ -753,6 +757,10 @@
 				GCC_PREFIX_HEADER = "MoltenVisualsTouch/MoltenVisualsTouch-Prefix.pch";
 				INFOPLIST_FILE = "MoltenVisualsTouchTests/MoltenVisualsTouchTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
